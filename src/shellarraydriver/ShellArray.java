@@ -71,7 +71,7 @@ public class ShellArray
                         temp = arr[s];
                         arr[s]=arr[s+gap];
                         arr[s+gap]= temp;
-                        System.out.println(this.toString()); 
+                        //System.out.println(this.toString()); 
                         swapflag = true;
                     }
                 }
