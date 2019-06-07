@@ -71,7 +71,7 @@ public class ShellArray
                         temp = arr[s];
                         arr[s]=arr[s+gap];
                         arr[s+gap]= temp;
-                        //System.out.println(this.toString()); 
+                        //System.out.println(this.toString()); sout for output of each swap of the shell sort
                         swapflag = true;
                     }
                 }
@@ -81,7 +81,7 @@ public class ShellArray
     }
     /**
      * The overridden toString() method to display the contents in a proper form
-     * @return 
+     * @return the contents of the array, single spaced between elements
      */    
     @Override
     public String toString() 
